@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>
+        Instituição Escolar - Formulário
+    </title>
+    <link rel="stylesheet" href="style.css">
+    <style>
+       
+       .container{
+        width: 300px;
+       }
+       .btn-container, .next-prev-container{
+        display: flex;
+        align-items: center;
+        flex-direction: column;
+       }
+       .data-p{
+        font-size: 19px;
+        width: fit-content;
+       }
+       .container-p{
+        display: flex; justify-content: center;
+       }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <div class="container-p">
+            <p class="data-p">Qual ocupação você pertence?</p>
+        </div>
+        <div class="btn-container">
+            <div><a href="data-prof.html"><button id="professor">Professor</button></a></div>
+
+            <div><a href="data-aluno.html"><button id="aluno">Aluno</button></a></div>
+        </div>
+
+        <div class="next-prev-container">
+            <div><a href="index.html"><button class="next-prev-btn">Voltar</button></a></div>
+        </div>
+    </div>
+</body>
+</html>
