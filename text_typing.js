@@ -7,7 +7,7 @@ function type_writer(elemento){
                 elemento.innerHTML += letra
             }, 100*i)
         })
-    }, 3000)
+    }, 2000)
 }
 
 var text = document.querySelector(".p-content")
