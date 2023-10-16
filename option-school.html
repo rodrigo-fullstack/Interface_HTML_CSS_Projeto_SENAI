@@ -7,40 +7,40 @@
     <title>
         Instituição Escolar - Formulário
     </title>
-    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="Estilos/style.css">
     <style>
        
-       .container{
-        width: 300px;
-       }
-       .btn-container, .next-prev-container{
-        display: flex;
-        align-items: center;
-        flex-direction: column;
-       }
-       .data-p{
-        font-size: 19px;
-        width: fit-content;
-       }
-       .container-p{
-        display: flex; justify-content: center;
+        .next-prev-container{
+            margin-left:30px;
+        }
+       .inner-btns>.button{
+        margin:10px 30px 10px 0px;
        }
     </style>
 </head>
 <body>
-    <div class="container">
-        <div class="container-p">
-            <p class="data-p">Qual ocupação você pertence?</p>
-        </div>
-        <div class="btn-container">
-            <div><a href="data-prof.html"><button id="professor">Professor</button></a></div>
-
-            <div><a href="data-aluno.html"><button id="aluno">Aluno</button></a></div>
-        </div>
-
-        <div class="next-prev-container">
-            <div><a href="index.html"><button class="next-prev-btn">Voltar</button></a></div>
+    <div class="center">
+        <div class="container borda-animada">
+            <div class="inner-container">
+                
+                <div class="p-box">
+                        <p class="p-content">Qual ocupação você pertence?</p>
+                        <div class="p-exp-block">
+                            <p class="p-exp">OCUPAÇÃO</p>
+                        </div>
+                </div>
+                <div class="buttons">
+                    <div class="next-prev-container">
+                        <div><a href="index.html"><button class="next-prev-btn" style="--clr:  #eb150d;" >Voltar</button></a></div>
+                    </div>
+                    <div class="inner-btns">
+                        <div class="button"><a href="data-prof.html"><button id="professor" style="--clr: #384ee1;">Professor</button></a></div>
+                        <div class ="button"><a href="data-aluno.html"><button id="aluno" style = "--clr:#F56228; ">Aluno</button></a></div>
+                    </div>
+                </div>
+            </div>
         </div>
     </div>
+    <script src="text_typing.js"></script>
 </body>
 </html>
